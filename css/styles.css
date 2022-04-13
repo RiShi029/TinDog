@@ -1,0 +1,190 @@
+body {
+  font-family: "Ubuntu", sans-serif !important;
+  text-align: center !important;
+}
+.container-fluid {
+  padding: 7% 15% !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+/* Title section  */
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+.title-heading {
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7% !important;
+}
+.col-lg-6 h1 {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+/* Navigation bar */
+.navbar {
+  padding: 0 !important;
+}
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif !important ;
+  font-size: 2.3rem !important ;
+  font-weight: bold;
+}
+.nav-link {
+  font-size: 1.2rem !important;
+}
+.nav-item {
+  padding: 0 16px;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Iphone image */
+.iphone-img {
+  width: 60% !important;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+.row {
+  padding-top: 4.5rem;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+  background-color: white;
+}
+.fas {
+  color: #ef8172;
+}
+.fas:hover {
+  color: #ff4c68;
+}
+.row1 {
+  padding: 7% 12%;
+}
+.row1 h3 {
+  font-size: 1.5rem;
+  font-weight: 900 !important;
+  padding-top: 1.7rem;
+}
+.row1 p {
+  color: #8f8f8f;
+  padding-bottom: 18px;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+.carousel-item {
+  padding: 7% 12%;
+}
+#testimonials h2 {
+  font-weight: 700;
+  font-size: 2.7rem;
+  line-height: 1.5;
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 2%;
+}
+.testimonial-image {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section  */
+
+#pricing {
+  padding: 100px;
+}
+#pricing h2 {
+  font-weight: 700;
+  font-size: 2.8rem;
+  padding-bottom: 10px;
+}
+#pricing p {
+  color: rgb(148, 145, 145);
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+.card-size {
+  padding: 3% 5%;
+  /* width: 80%; */
+}
+.btn-card {
+  padding-bottom: 0;
+}
+
+/* Call to Action  */
+
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 12% 3%;
+}
+#cta h3 {
+  font-weight: 900;
+  color: white;
+  font-size: 2.8rem;
+  line-height: 1.5;
+  padding-bottom: 10px;
+}
+
+/* footer */
+#footer {
+  background-color: white;
+  padding: 2% 2% 0;
+  color:#212529;
+}
+.icon-color {
+  color: white;
+  padding: 3px;
+}
+.icon-color:hover {
+  color: red;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  #title h1 {
+    font-size: 3rem;
+  }
+  .iphone-img {
+    transform: rotate(0);
+    position: static;
+  }
+}
